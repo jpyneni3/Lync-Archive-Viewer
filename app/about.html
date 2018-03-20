@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- app styles -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/chat.css">
+    <link rel="stylesheet" href="./css/reset.css">
+
+  </head>
+  <body>
+    <!--xxxxxxxxxxxxxxx Here is the HTML you will want to replace with your own xxxxxxxxxxxxxxxxxxxxxxx-->
+    <p>This is an example of creating a new window.</p>
+    <p>  We are currently using Node.js
+    <script>document.write(process.versions.node)</script>,Chromium 
+    <script>document.write(process.versions.chrome)</script>, and Electron 
+    <script>document.write(process.versions.electron)</script>.</p>
+
+    <button id="btnClose">Close</button>
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    
+  </body>
+
+  
+  <script>
+     $ = jQuery = require('../bower_components/jquery/dist/jquery.min.js')
+
+     //this file contains your application javascript code:
+    require('./js/about.js')
+  </script>
+</html>

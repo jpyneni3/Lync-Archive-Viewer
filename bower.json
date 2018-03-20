@@ -1,0 +1,20 @@
+{
+  "name": "hmny-electron-app-template",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "Chad Button"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/electron/electron-quick-start",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "kendo-ui": "https://bower.telerik.com/bower-kendo-ui.git#"
+  }
+}

@@ -1,0 +1,158 @@
+html {
+    background-color: #4682b4;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+
+
+body {
+  background-color: #4682b4;
+  overflow-y: hidden;
+  line-height: 1;
+   
+}
+
+p {
+  margin: none;
+  padding: 40 100 40 100;
+}
+
+/*.navigation {
+  padding-bottom: 5;
+  height: 100;
+
+}*/
+
+#people {
+  font-size: 15;
+}
+
+#people button:hover {
+  background-color: #E9EDF6;
+}
+
+#people button {
+  border: none;
+  display:block;
+  background-color: #f1f1f1;
+  padding: 0px 30px 20px 30px;
+  margin: 0;
+  text-align: center;
+  outline: none;
+}
+
+#peopleHeader {
+  text-align: center;
+  background-color: lightgray;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#nav {
+  /*margin-left: 5;
+  margin-right: 5;*/
+  height: 50;
+  padding-left: 5;
+  padding-right: 5;
+  padding-bottom: 50 !important;
+  background-color: #4682b4;
+}
+
+#textfield {
+  display: inline;
+  position: absolute;
+  top: 20.5; 
+  left: 18.5;
+}
+
+#submit {
+  display: inline;
+  position: absolute;
+  top: 23; 
+  left: 195;
+  background-color: #D5D5D5
+}
+
+#refreshButton {
+  display: inline;
+  position: absolute;
+  top: 23; 
+  right: 20;
+  background-color: #D5D5D5
+}
+
+.column1 {
+  width: 30%;
+  float: left;
+}
+
+.column2 {
+  width: 70%;
+  float: right;
+}
+
+#messages {
+  margin-top: 20;
+  margin-left: 20;
+  background-color: white;
+}
+
+.row.content {
+  height: 450px
+}
+
+.sidenav {
+  padding-top: 20px;
+  margin-right: 0px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+
+
+.conversation {
+  background-color: #9099A2;
+  padding: 20 20 30 20;
+  text-align: center;
+}
+
+#left-panel {
+  overflow-y: scroll; 
+  height: 100%; 
+  background-color: lightgray;
+}
+
+#treeDiv {
+  background-color: lightgray; 
+  border: none;
+}
+
+#right-panel {
+ overflow-y: scroll; 
+ height: 100%; 
+ background-color: white;
+ padding: none;
+}
+
+#messagesDisplay {
+  background-color: white;
+  border:none; 
+  padding: none;
+}
+
+#jstree {
+  margin: 10;
+}

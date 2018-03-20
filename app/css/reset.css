@@ -1,0 +1,28 @@
+.title {
+	margin-top: 20px;
+	font-family: sans-serif;
+}
+
+#container {
+	background-color: white;
+	display: inline;
+}
+
+#buttonGroup {}
+
+#bottom {
+	
+}
+
+.button {
+	display: inline;
+	width: 15%;
+	border = 0;
+	padding: 5px 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #E9EDF6;
+	font-size: 15px;
+	color: black;
+	border-radius: 2px;
+}

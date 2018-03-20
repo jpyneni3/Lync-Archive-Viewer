@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- app styles -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- third party component progressjs, see http://usablica.github.io/progress.js/ -->
+    <link rel="stylesheet" href="../third_party/progressjs/progressjs.css" type="text/css"/>
+
+    <!-- kendo styles using the material theme -->
+    <!--<link rel="stylesheet" href="../bower_components/kendo-ui/styles/kendo.common.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../bower_components/kendo-ui/styles/kendo.default.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../bower_components/kendo-ui/styles/kendo.common-material.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../bower_components/kendo-ui/styles/kendo.material.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../bower_components/kendo-ui/styles/kendo.dataviz.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../bower_components/kendo-ui/styles/kendo.dataviz.default.min.css" type="text/css"/>
+    <link rel="stylesheet" href="../bower_components/kendo-ui/styles/kendo.dataviz.material.min.css" type="text/css"/>-->
+  </head>
+  <body>
+
+    <!-- this is progress js, which is a thin progress bar along the top of the main window, see this for details on how to use: http://usablica.github.io/progress.js/ -->
+    <div class="progressjs-progress progressjs-theme-blue">
+        <div class="progressjs-inner">
+            <div class="progressjs-percent"></div> 
+        </div>
+    </div>
+
+    <!--xxxxxxxxxxxxxxx Here is the HTML you will want to replace with your own xxxxxxxxxxxxxxxxxxxxxxx-->
+    <div class="container">
+			<p class="title">Welcome to Lync Archive Viewer.</p>
+			<form id="form1">
+				<input type="text" name="username" placeholder="Windows Username"><br>
+			</form>
+		    <button class="launchButton" id="open">Launch Viewer</button>
+	</div>
+    <!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    
+  </body>
+
+  
+  <script>
+    //we load jquery and kendo from bower directory here:
+    // let $ = jQuery = require('../bower_components/jquery/dist/jquery.min.js')
+    let _ = require('lodash')
+    let progressJs = require('../third_party/progressjs/progress.js').progressJs
+
+    // require('../bower_components/kendo-ui/js/kendo.all.min.js')
+
+    //this file contains your application javascript code:
+    require('./js/index.js')
+    require('./js/renderer.js')
+  </script>
+</html>
