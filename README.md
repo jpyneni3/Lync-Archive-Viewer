@@ -7,7 +7,7 @@ Run the commands: <br>
 To install node modules: <br>
 ```npm install```  <br> <br>
 To launch the app: <br>
-"npm start"  <br> <br>  
+```npm start```  <br> <br>  
 
 Alternatively, bundles for all valid combinations of target platforms/architectures are created in the following folders: <br>
 
